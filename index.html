@@ -364,10 +364,29 @@ footer{background:#fff;padding:20px 16px;margin:12px auto 0;color:#757575;font-s
 .bp-success .bp-order-code{background:#FAFAFA;border:1px dashed #E5E5E5;padding:8px 12px;border-radius:2px;font-family:monospace;font-size:13px;color:#EE4D2D;display:inline-block;margin-bottom:12px}
 @media (max-width:767px){
   .bp-overlay{padding:0;align-items:flex-end}
-  .bp-modal{border-radius:12px 12px 0 0;max-height:92vh;transform:translateY(100%)}
+  .bp-modal{border-radius:14px 14px 0 0;max-height:72vh;height:72vh;transform:translateY(100%)}
   .bp-overlay.active .bp-modal{transform:translateY(0)}
-  .bp-header{border-radius:12px 12px 0 0;padding:18px 14px 12px;position:relative}
-  .bp-header::before{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);width:36px;height:4px;background:rgba(255,255,255,.5);border-radius:2px}
+  .bp-header{border-radius:14px 14px 0 0;padding:16px 14px 10px;position:relative}
+  .bp-header h2{font-size:15px}
+  .bp-header::before{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);width:40px;height:4px;background:rgba(255,255,255,.5);border-radius:2px}
+  .bp-body{padding:12px 14px}
+  .bp-product{padding-bottom:10px;margin-bottom:10px}
+  .bp-product-img{flex:0 0 60px;height:60px}
+  .bp-product-name{font-size:13px;-webkit-line-clamp:2}
+  .bp-product-price{font-size:16px}
+  .bp-option{margin-bottom:10px}
+  .bp-option-label{font-size:12px;margin-bottom:4px}
+  .bp-chip{padding:6px 10px;font-size:12px;min-height:30px}
+  .bp-qty-row{margin-bottom:10px}
+  .bp-field{margin-bottom:8px}
+  .bp-field label{font-size:12px;margin-bottom:3px}
+  .bp-field input,.bp-field textarea{padding:8px 10px;font-size:14px}
+  .bp-field textarea{min-height:50px}
+  /* Footer sticky bottom + safe-area-inset for iOS home indicator */
+  .bp-footer{padding:8px 12px;padding-bottom:calc(8px + env(safe-area-inset-bottom, 0px));gap:10px;align-items:center}
+  .bp-total-label{font-size:11px}
+  .bp-total-price{font-size:18px;line-height:1.2}
+  .bp-submit{min-width:110px;height:40px;padding:0 18px;font-size:14px;font-weight:700}
 }
 body.bp-open{overflow:hidden}
 </style>
