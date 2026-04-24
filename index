@@ -1,0 +1,1040 @@
+ <!DOCTYPE html>
+<html lang="vi">
+<head>
+<!-- theme by noti.vn - theme này được tạo từ skills của noti.vn -->
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2139256383565280');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {
+  content_ids: ['REJUVELLA-SUNSCREEN-50ML'],
+  content_name: 'Kem chống nắng Rejuvella 50ml SPF 50+ PA++++',
+  content_type: 'product',
+  value: 459000,
+  currency: 'VND'
+});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2139256383565280&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kem chống nắng Rejuvella 50ml SPF 50+ PA++++ - Giảm 29% còn 459K | Hoàng Huyền Beauty</title>
+<meta name="description" content="Kem chống nắng Rejuvella SPF 50+ PA++++ · PDRN 1000ppm phục hồi da · Nâng tone tức thì · KFDA Hàn Quốc. Flash sale 459.000đ, đổi trả 7 ngày.">
+<meta property="og:title" content="Kem chống nắng Rejuvella 50ml - Flash Sale 459K | Hoàng Huyền Beauty">
+<meta property="og:description" content="SPF 50+ PA++++ · PDRN 1000ppm · Nâng tone tức thì · KFDA Hàn Quốc. Chỉ còn 47 tuýp giá flash sale.">
+<meta property="og:image" content="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/gallery-1.jpg">
+<meta property="og:type" content="product">
+<link rel="icon" type="image/png" href="https://pub-78e928000d494e79853365010140c575.r2.dev/recvdRvuPysRm0">
+<link rel="apple-touch-icon" href="https://pub-78e928000d494e79853365010140c575.r2.dev/recvdRvuPysRm0">
+<link rel="preconnect" href="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev">
+
+<style>
+/* =========================================
+   SHOPEE BASE (inlined from skill Shopee)
+   ========================================= */
+:root{
+  --orange:#EE4D2D; --orange-dark:#F53D2D; --orange-light:#FF6633; --white:#FFFFFF;
+  --flash-red:#D0011B; --voucher-gold:#FFB81C; --mall-purple:#9B4DCA;
+  --choice-green:#00BFA5; --freeship-blue:#26AAFF; --live-pink:#FF5EAF;
+  --bg-page:#F5F5F5; --bg-card:#FFFFFF; --bg-hover:#FAFAFA;
+  --text-primary:#222222; --text-secondary:#555555; --text-muted:#757575;
+  --text-disabled:#BBBBBB; --strike-price:#929292;
+  --border-light:#EEEEEE; --border-default:#E5E5E5;
+  --star-active:#FFCE3D; --star-inactive:#C6C6C6;
+  --grad-header:linear-gradient(-180deg,#F53D2D 0%,#F63 100%);
+  --grad-flashsale:linear-gradient(90deg,#FE2C55 0%,#F53D2D 100%);
+  --grad-voucher:linear-gradient(135deg,#FFD26D 0%,#FFB81C 100%);
+  --r-1:1px; --r-2:2px; --r-4:4px; --r-full:50%;
+  --gap-xs:4px; --gap-sm:8px; --gap-md:12px; --gap-lg:16px; --gap-xl:24px;
+  /* Cosmetic accents */
+  --cos-pink:#FFF0F5; --cos-peach:#FFF5EE; --cos-green:#F0F9F4; --cos-blue:#F0F8FF;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg-page);color:var(--text-primary);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;line-height:1.4}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.container{max-width:1200px;margin:0 auto;padding:0 12px}
+
+/* Header — toàn bộ header (cả nền cam) bo vào khung 480px, căn giữa trên desktop */
+.sp-header{background:var(--grad-header);color:var(--white);padding:10px 0;position:sticky;top:0;z-index:50;max-width:480px;margin:0 auto}
+.sp-header-inner{display:flex;align-items:center;gap:10px;padding:0 12px}
+.sp-logo{flex:0 0 auto;font-size:15px;font-weight:700;letter-spacing:.2px;white-space:nowrap}
+.sp-logo .sub{font-size:10px;font-weight:400;opacity:.85;display:block;margin-top:-2px}
+.sp-search{flex:1;background:var(--white);border-radius:var(--r-2);display:flex;align-items:center;padding:3px 3px 3px 10px;height:40px}
+.sp-search input{flex:1;border:none;outline:none;font-size:14px;color:var(--text-primary);background:transparent}
+.sp-search button{background:var(--orange);border:none;color:var(--white);border-radius:var(--r-2);padding:0 18px;height:34px;cursor:pointer;font-size:14px;display:flex;align-items:center;gap:6px}
+.sp-cart{flex:0 0 auto;position:relative;color:var(--white);cursor:pointer;padding:4px}
+.sp-cart-count{position:absolute;top:-4px;right:-4px;background:var(--white);color:var(--orange);min-width:18px;height:18px;border-radius:var(--r-full);font-size:11px;font-weight:500;display:flex;align-items:center;justify-content:center;padding:0 5px}
+
+/* Buttons */
+.btn-primary{background:var(--orange);color:var(--white);border:none;border-radius:var(--r-2);padding:10px 24px;font-size:14px;font-weight:500;cursor:pointer;transition:background 200ms ease;display:inline-flex;align-items:center;justify-content:center;gap:6px;text-align:center}
+.btn-primary:hover{background:#F05A40}
+.btn-primary:active{background:#D73211}
+.btn-secondary{background:var(--white);color:var(--orange);border:1px solid var(--orange);border-radius:var(--r-2);padding:9px 24px;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;text-align:center}
+.btn-flash{background:var(--grad-flashsale);color:var(--white);border:none;border-radius:var(--r-2);padding:10px 24px;font-size:14px;font-weight:700;cursor:pointer}
+
+/* Countdown blocks */
+.cd-blocks{display:inline-flex;align-items:center;gap:4px}
+.cd-dd,.cd-hh,.cd-mm,.cd-ss{background:#000;color:#fff;padding:3px 6px;border-radius:var(--r-2);font-weight:700;font-size:14px;min-width:24px;text-align:center;font-variant-numeric:tabular-nums}
+.cd-sep{color:#000;font-weight:700}
+
+/* Sticky bar (50/50 Chat | Mua Ngay) — center khớp content 480px */
+.sticky-bar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;height:64px;background:var(--white);box-shadow:0 -2px 12px rgba(0,0,0,.12);display:none;z-index:100;box-sizing:border-box}
+.sticky-bar.sb-split{padding:8px 10px;gap:8px}
+.sb-chat{flex:1;min-width:0;display:flex;align-items:center;justify-content:center;gap:6px;background:#fff;color:var(--orange);border:1.5px solid var(--orange);border-radius:6px;font-size:13px;font-weight:700;text-decoration:none;transition:all .15s ease;white-space:nowrap}
+.sb-chat:active{background:#FFF5F2;transform:scale(.98)}
+.sb-buy-big{flex:1.4;min-width:0;display:flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#FF6633 0%,#EE4D2D 50%,#F53D2D 100%);color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:800;cursor:pointer;box-shadow:0 3px 10px rgba(238,77,45,.35);transition:all .15s ease;white-space:nowrap;padding:0 6px}
+.sb-buy-big:active{transform:scale(.98);box-shadow:0 2px 6px rgba(238,77,45,.3)}
+.sb-buy-big .bolt{font-size:15px;animation:cta-flash 1.2s ease-in-out infinite alternate}
+.sticky-bar{display:flex}
+body.has-sticky-bar{padding-bottom:64px}
+
+/* =========================================
+   SECTIONS — cosmetic
+   ========================================= */
+
+/* Block wrapper */
+.sec{background:var(--white);margin-top:8px;border-radius:var(--r-2);overflow:hidden}
+.sec-title{padding:14px 12px 6px;font-size:16px;font-weight:500;color:var(--text-primary);display:flex;align-items:center;gap:8px}
+.sec-title::before{content:"";width:3px;height:16px;background:var(--orange);border-radius:2px}
+.sec-inner{padding:12px}
+
+/* GALLERY 1:1 CAROUSEL (Shopee style - thay thế hero) */
+.gallery-wrap{position:relative;background:#fff}
+.gallery-scroller{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.gallery-scroller::-webkit-scrollbar{display:none}
+.g-slide{flex:0 0 100%;scroll-snap-align:start;aspect-ratio:1/1;background:#F5F5F5;position:relative}
+.g-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.g-slide.placeholder::after{content:"Ảnh 1:1 — đang cập nhật";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#FFF0F5,#FFF5EE);color:#999;font-size:13px;font-style:italic}
+.gallery-dots{display:flex;justify-content:center;gap:6px;padding:8px 0;background:#fff}
+.gallery-dots .dot{width:6px;height:6px;border-radius:50%;background:#E5E5E5;transition:all .2s ease;cursor:pointer}
+.gallery-dots .dot.active{background:var(--orange);width:20px;border-radius:4px}
+.gallery-counter{position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;font-weight:500;padding:3px 8px;border-radius:10px;font-variant-numeric:tabular-nums;z-index:2}
+/* Ribbon overlay trên gallery (thay cho hero ribbon cũ) */
+.gallery-wrap .hero-ribbon{position:absolute;top:10px;left:10px;z-index:3}
+
+/* HERO */
+.hero{position:relative;background:var(--white)}
+.hero img{width:100%;display:block}
+.hero-flash-bar{background:var(--grad-flashsale);color:#fff;padding:10px 12px;display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.hero-flash-bar .title{font-size:15px;font-weight:700;display:flex;align-items:center;gap:6px}
+.hero-flash-bar .title .bolt{font-size:16px}
+.hero-flash-bar .end{font-size:12px;opacity:.95;margin-right:6px}
+.hero-price-block{padding:14px 12px;background:#fff}
+.hero-price-row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.hero-price-now{color:var(--orange);font-size:30px;font-weight:700;letter-spacing:.2px}
+.hero-price-old{color:var(--strike-price);font-size:14px;text-decoration:line-through}
+.hero-discount{background:var(--flash-red);color:#fff;font-size:12px;font-weight:700;padding:3px 6px;border-radius:2px}
+.hero-meta{display:flex;align-items:center;gap:10px;color:var(--text-muted);font-size:13px;margin-bottom:8px;flex-wrap:wrap}
+.hero-meta .stars{color:var(--star-active);letter-spacing:1px}
+.hero-meta .dot{width:3px;height:3px;background:var(--text-disabled);border-radius:50%;display:inline-block}
+.hero-stock{background:#FFF5F2;border:1px dashed #FFD6C7;color:#D73211;padding:6px 10px;border-radius:2px;font-size:12px;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.hero-stock strong{color:var(--flash-red);font-weight:700}
+.hero-cta-row{display:flex;gap:8px}
+.hero-cta-row .btn-primary,.hero-cta-row .btn-secondary{flex:1;justify-content:center;padding:14px 8px;font-weight:700;font-size:15px}
+
+/* Product title */
+.product-title{font-size:18px;font-weight:500;line-height:1.35;color:var(--text-primary);margin:0 0 8px}
+.chips-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chip{display:inline-flex;align-items:center;gap:4px;background:#FFF5F2;color:var(--orange);border:1px solid #FFD6C7;font-size:11px;font-weight:600;padding:3px 8px;border-radius:2px}
+.chip.green{background:var(--cos-green);color:#00A86B;border-color:#BCE4C9}
+.chip.gold{background:#FFFAEC;color:#B88700;border-color:#FFE39A}
+.chip.blue{background:var(--cos-blue);color:#0088CC;border-color:#C0DFF3}
+
+/* Infographic image section — full-width 9:16 or 4:5 */
+.info-img{width:100%;display:block}
+.info-img-wrap{background:#fff;line-height:0}
+
+/* Pain intro strip */
+.pain-intro{background:#FFFDF5;padding:10px 12px;font-size:13px;color:#555;border-left:3px solid var(--flash-red);margin:0}
+
+/* Ingredient callout */
+.ingre-callout{padding:12px;background:linear-gradient(180deg,#FFF0F5 0%,#FFF5EE 100%);display:flex;gap:10px;align-items:flex-start}
+.ingre-callout .icon{flex:0 0 40px;height:40px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--orange);font-weight:700;font-size:18px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.ingre-callout .txt{flex:1;font-size:13px;color:#333;line-height:1.5}
+.ingre-callout .txt strong{color:var(--orange)}
+
+/* Benefit row mini */
+.benefit-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:10px 12px}
+.bm-item{background:#FFF5F2;border:1px solid #FFE1D5;border-radius:4px;padding:8px 6px;text-align:center;font-size:11px;color:#333;font-weight:500;line-height:1.3}
+.bm-item .emo{font-size:20px;display:block;margin-bottom:3px}
+
+/* Routine CTA */
+.routine-cta{padding:12px;display:flex;gap:8px;align-items:center;background:#FFFBEC;border-top:1px dashed #FFE19A}
+.routine-cta .ico{font-size:18px}
+.routine-cta .txt{font-size:13px;color:#5C4500;line-height:1.4;flex:1}
+
+/* Review carousel */
+.review-wrap{padding:12px;background:#fff}
+.review-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.review-head .t{font-size:15px;font-weight:500;display:flex;align-items:center;gap:8px}
+.review-head .t .r{color:var(--orange);font-weight:700;font-size:18px}
+.review-head .t .stars{color:var(--star-active)}
+.review-head .all{color:var(--orange);font-size:12px;display:flex;align-items:center;gap:3px}
+.review-scroller{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+.review-scroller::-webkit-scrollbar{height:4px}
+.review-scroller::-webkit-scrollbar-thumb{background:#E5E5E5;border-radius:2px}
+.rev-card{flex:0 0 78%;max-width:300px;background:#FAFAFA;border:1px solid #EEE;border-radius:4px;padding:10px;scroll-snap-align:start}
+@media (min-width:768px){.rev-card{flex:0 0 33%}}
+.rev-top{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.rev-avatar{width:32px;height:32px;border-radius:50%;background:var(--orange);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex:0 0 32px}
+.rev-avatar.g{background:#00A86B}.rev-avatar.b{background:#0088CC}.rev-avatar.p{background:#E91E63}
+.rev-avatar.g2{background:#B88700}.rev-avatar.p2{background:#9B4DCA}
+.rev-name{font-size:13px;font-weight:500;color:#333}
+.rev-time{font-size:11px;color:#999}
+.rev-stars{color:var(--star-active);font-size:12px;margin-bottom:4px;letter-spacing:1px}
+.rev-chip{display:inline-block;background:#E9F5FF;color:#0088CC;font-size:10px;padding:1px 6px;border-radius:2px;margin-bottom:6px}
+.rev-text{font-size:12px;color:#444;line-height:1.5;margin-bottom:8px}
+.rev-text b{background:#FFF3B0;padding:0 2px;font-weight:500}
+.rev-img{width:100%;height:140px;object-fit:cover;border-radius:3px;background:#F5F5F5}
+
+/* FAQ native, all-open */
+.faq-wrap{padding:4px 12px 14px;background:#fff}
+.faq-item{background:#FAFAFA;border:1px solid #EEE;border-left:3px solid var(--orange);border-radius:0 4px 4px 0;padding:12px 14px;margin-bottom:8px}
+.faq-q,.faq-a{display:flex;gap:10px;align-items:flex-start;line-height:1.5}
+.faq-q{font-size:14px;font-weight:600;color:#222;margin-bottom:6px}
+.faq-a{font-size:13px;color:#444;padding-top:6px;border-top:1px dashed #E5E5E5;margin-top:6px}
+.faq-a b{color:var(--orange);font-weight:700}
+.q-mark,.a-mark{flex:0 0 22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;margin-top:1px}
+.q-mark{background:var(--orange)}
+.a-mark{background:#00A86B}
+
+/* Feedback ảnh thật — scroll ngang */
+.fb-scroller{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 12px;-webkit-overflow-scrolling:touch}
+.fb-scroller::-webkit-scrollbar{height:4px}
+.fb-scroller::-webkit-scrollbar-thumb{background:#E5E5E5;border-radius:2px}
+.fb-slide{flex:0 0 68%;max-width:280px;scroll-snap-align:start;background:#FAFAFA;border:1px solid #EEE;border-radius:6px;overflow:hidden;aspect-ratio:1/1;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+@media (min-width:768px){.fb-slide{flex:0 0 32%;max-width:240px}}
+.fb-slide img{width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in}
+
+/* Trust badges + cong bo */
+.trust-wrap{padding:14px 12px;background:#fff}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+.tb{text-align:center;padding:8px 4px;background:#FAFAFA;border:1px solid #EEE;border-radius:4px}
+.tb .emo{font-size:22px;display:block;margin-bottom:2px}
+.tb .lbl{font-size:10px;color:#555;font-weight:500;line-height:1.2}
+.cong-bo-block{background:linear-gradient(180deg,#FFFBEC 0%,#FFF8DD 100%);border:2px solid #FFD26D;border-radius:8px;overflow:hidden;box-shadow:0 4px 14px rgba(255,184,28,.15)}
+.cb-head{display:flex;gap:10px;align-items:center;padding:12px 14px;background:linear-gradient(90deg,#FFB81C 0%,#FFD26D 100%);color:#3E2D00}
+.cb-seal{font-size:32px;flex:0 0 auto;filter:drop-shadow(0 1px 2px rgba(0,0,0,.15))}
+.cb-head-txt{flex:1;min-width:0}
+.cb-title{font-size:14px;font-weight:800;letter-spacing:.3px;line-height:1.25;color:#3E2D00}
+.cb-sub{font-size:12px;color:#5C4500;margin-top:3px;line-height:1.4}
+.cb-sub b{font-weight:700;color:#3E2D00}
+.cb-img{width:100%;display:block;background:#fff;cursor:zoom-in;border-top:1px solid rgba(255,184,28,.3);border-bottom:1px solid rgba(255,184,28,.3)}
+.cb-foot{padding:12px 14px;background:#FFFBEC}
+.cb-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.cb-tag{background:#fff;border:1px solid #FFD26D;color:#8B6500;font-size:11px;font-weight:700;padding:4px 10px;border-radius:12px}
+.cb-note{font-size:11px;color:#8B6500;text-align:center;font-style:italic}
+@media (min-width:768px){.trust-grid{grid-template-columns:repeat(8,1fr)}}
+
+/* CTA Final — HTML native flash banner */
+.cta-hero{background:linear-gradient(90deg,#D0011B 0%,#EE4D2D 50%,#F53D2D 100%);color:#fff;padding:16px 12px;display:flex;align-items:center;justify-content:center;gap:14px;position:relative;overflow:hidden}
+.cta-hero::before,.cta-hero::after{content:"";position:absolute;width:100px;height:100px;background:radial-gradient(circle,rgba(255,255,255,.15) 0%,transparent 70%);border-radius:50%;top:50%;transform:translateY(-50%)}
+.cta-hero::before{left:-30px}.cta-hero::after{right:-30px}
+.cta-bolt-l,.cta-bolt-r{font-size:36px;line-height:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3));animation:cta-flash 1.2s ease-in-out infinite alternate;z-index:1}
+.cta-bolt-r{animation-delay:.3s}
+@keyframes cta-flash{from{transform:scale(1);opacity:.9}to{transform:scale(1.15);opacity:1}}
+.cta-hero-title{font-size:22px;font-weight:900;line-height:1.1;text-align:center;letter-spacing:.5px;text-shadow:0 2px 4px rgba(0,0,0,.2);z-index:1}
+
+.cta-cd-block{background:#000;padding:14px 12px;text-align:center;color:#fff}
+.cta-cd-label{font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:8px;color:#FFB81C}
+.cta-cd-timer{display:flex;align-items:center;justify-content:center;gap:6px}
+.cta-cd-timer .cd-box{background:#fff;color:#EE4D2D;font-weight:900;font-size:26px;padding:6px 10px;border-radius:6px;min-width:48px;text-align:center;font-variant-numeric:tabular-nums;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.cta-cd-timer .cd-sep2{color:#fff;font-weight:900;font-size:22px}
+
+.cta-product{background:linear-gradient(180deg,#FFF5F2 0%,#FFFBEC 100%);padding:18px 14px;text-align:center}
+.cta-product-img{position:relative;display:inline-block;width:70%;max-width:260px;aspect-ratio:1/1;background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(238,77,45,.18);overflow:hidden;margin-bottom:14px}
+.cta-product-img img{width:100%;height:100%;object-fit:cover;display:block}
+.cta-product-img.placeholder img{display:none}
+.cta-product-img.placeholder::after{content:"Ảnh SP 1:1 — đang cập nhật";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#FFF0F5,#FFF5EE);color:#999;font-size:12px;font-style:italic;text-align:center;padding:10px}
+.cta-discount-badge{position:absolute;top:10px;right:10px;background:#D0011B;color:#fff;font-size:15px;font-weight:900;padding:6px 10px;border-radius:20px;box-shadow:0 2px 6px rgba(208,1,27,.4);z-index:2}
+
+.cta-price-block{text-align:center}
+.cta-price-old{color:#999;font-size:14px;text-decoration:line-through;margin-bottom:2px}
+.cta-price-now{color:#EE4D2D;font-size:42px;font-weight:900;line-height:1;letter-spacing:-1px}
+.cta-price-now .cur{font-size:22px;font-weight:700;margin-left:2px;vertical-align:middle}
+.cta-stock{margin-top:10px;display:inline-block;background:#fff;border:1px dashed #FFB81C;color:#8B6500;padding:6px 14px;border-radius:16px;font-size:13px}
+.cta-stock b{color:#D0011B;font-weight:800}
+
+.cta-btn-big{width:100%;padding:18px;font-weight:900;font-size:17px;border-radius:8px;box-shadow:0 6px 18px rgba(238,77,45,.4);animation:cta-pulse 1.8s ease-in-out infinite}
+@keyframes cta-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}
+.cta-trust{margin-top:12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap;font-size:11px;color:#666}
+.cta-trust span{white-space:nowrap}
+
+/* Feature strip */
+.feat-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#FFF5F2;border-top:1px solid #FFE1D5;border-bottom:1px solid #FFE1D5}
+.feat-strip .fs{text-align:center;padding:10px 4px;font-size:11px;color:#D73211;font-weight:500;line-height:1.3;border-right:1px solid #FFE1D5}
+.feat-strip .fs:last-child{border-right:none}
+.feat-strip .fs .emo{font-size:20px;display:block;margin-bottom:2px}
+
+/* Badge ribbon top-right of hero img */
+.hero-ribbon{position:absolute;top:10px;left:10px;background:var(--flash-red);color:#fff;font-size:11px;font-weight:700;padding:4px 8px;border-radius:2px;z-index:2;display:flex;align-items:center;gap:4px}
+.hero-ribbon .bolt{font-size:12px}
+
+/* Footer */
+footer{background:#fff;padding:20px 16px;margin:12px auto 0;color:#757575;font-size:12px;border-top:1px solid #EEE;max-width:480px;box-sizing:border-box}
+.footer-grid{max-width:480px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:16px}
+.footer-grid h4{color:#222;font-size:13px;margin:0 0 8px}
+.footer-grid p,.footer-grid a{margin:4px 0;color:#757575;display:block;text-decoration:none;line-height:1.55}
+.footer-copy{max-width:480px;margin:16px auto 0;padding-top:12px;border-top:1px solid #F5F5F5;text-align:center;font-size:11px}
+
+/* Lightbox đơn giản cho ảnh cong bo + review */
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:2000;display:none;align-items:center;justify-content:center;padding:20px;cursor:zoom-out}
+.lightbox.active{display:flex}
+.lightbox img{max-width:100%;max-height:100%;border-radius:4px}
+
+/* =========================================
+   BUY POPUP (inlined)
+   ========================================= */
+.bp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;opacity:0;pointer-events:none;transition:opacity 200ms ease;display:flex;align-items:center;justify-content:center;padding:24px}
+.bp-overlay.active{opacity:1;pointer-events:auto}
+.bp-modal{background:#fff;width:100%;max-width:560px;max-height:calc(100vh - 48px);border-radius:4px;box-shadow:0 10px 40px rgba(0,0,0,.3);display:flex;flex-direction:column;transform:translateY(30px) scale(.98);opacity:0;transition:transform 240ms cubic-bezier(.16,1,.3,1),opacity 240ms ease;overflow:hidden}
+.bp-overlay.active .bp-modal{transform:translateY(0) scale(1);opacity:1}
+.bp-header{padding:14px 16px;background:linear-gradient(-180deg,#F53D2D 0%,#F63 100%);color:#fff;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.bp-header h2{margin:0;font-size:16px;font-weight:500;flex:1;line-height:1.3}
+.bp-close{background:transparent;border:none;color:#fff;cursor:pointer;padding:4px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background 150ms ease;width:28px;height:28px}
+.bp-close:hover{background:rgba(255,255,255,.15)}
+.bp-body{overflow-y:auto;padding:14px 16px;flex:1;-webkit-overflow-scrolling:touch}
+.bp-product{display:flex;gap:12px;padding-bottom:12px;border-bottom:1px solid #EEE;margin-bottom:12px}
+.bp-product-img{flex:0 0 80px;height:80px;background:#F5F5F5;border-radius:2px;overflow:hidden}
+.bp-product-img img{width:100%;height:100%;object-fit:cover;display:block}
+.bp-product-info{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:space-between}
+.bp-product-name{font-size:13px;color:#222;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4;margin:0}
+.bp-product-price{color:#EE4D2D;font-size:18px;font-weight:500;margin-top:4px}
+.bp-product-price .old{color:#929292;font-size:12px;text-decoration:line-through;margin-left:6px;font-weight:400}
+.bp-options{margin-bottom:8px}
+.bp-option{margin-bottom:12px}
+.bp-option-label{font-size:13px;color:#555;margin-bottom:6px;display:block;font-weight:500}
+.bp-option-label .req{color:#EE4D2D;margin-left:2px}
+.bp-option-values{display:flex;flex-wrap:wrap;gap:6px}
+.bp-chip{padding:6px 12px;background:#fff;border:1px solid #E5E5E5;border-radius:2px;font-size:13px;color:#222;cursor:pointer;transition:all 150ms ease;user-select:none;display:inline-flex;align-items:center;gap:5px;min-height:32px;line-height:1.2}
+.bp-chip:hover{border-color:#EE4D2D;color:#EE4D2D}
+.bp-chip.active{border-color:#EE4D2D;color:#EE4D2D;background:#FFF5F2;position:relative}
+.bp-chip.active::after{content:"";position:absolute;right:0;bottom:0;width:0;height:0;border-style:solid;border-width:0 0 12px 12px;border-color:transparent transparent #EE4D2D transparent}
+.bp-chip-delta{color:#EE4D2D;font-size:11px;font-weight:500}
+.bp-qty-row{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.bp-qty-label{font-size:13px;color:#555;font-weight:500;flex:1}
+.bp-qty{display:flex;align-items:center;border:1px solid #E5E5E5;border-radius:2px;overflow:hidden}
+.bp-qty button{width:32px;height:32px;background:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#555}
+.bp-qty button:hover{background:#FAFAFA;color:#EE4D2D}
+.bp-qty input{width:44px;height:32px;border:none;border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;text-align:center;font-size:14px;color:#222;outline:none;-moz-appearance:textfield}
+.bp-qty input::-webkit-outer-spin-button,.bp-qty input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.bp-form{margin-top:4px}
+.bp-field{margin-bottom:10px}
+.bp-field label{display:block;font-size:13px;color:#555;margin-bottom:4px;font-weight:500}
+.bp-field label .req{color:#EE4D2D;margin-left:2px}
+.bp-field input,.bp-field textarea{width:100%;padding:10px 12px;border:1px solid #E5E5E5;border-radius:2px;font-size:14px;color:#222;background:#fff;outline:none;transition:border-color 150ms ease,box-shadow 150ms ease;font-family:inherit;box-sizing:border-box}
+.bp-field textarea{resize:vertical;min-height:60px;line-height:1.4}
+.bp-field input:focus,.bp-field textarea:focus{border-color:#EE4D2D;box-shadow:0 0 0 2px rgba(238,77,45,.12)}
+.bp-field.has-error input,.bp-field.has-error textarea{border-color:#D0011B}
+.bp-error{display:none;color:#D0011B;font-size:12px;margin-top:4px}
+.bp-field.has-error .bp-error{display:block}
+.bp-hp{position:absolute;left:-9999px;opacity:0;pointer-events:none}
+.bp-footer{background:#FAFAFA;border-top:1px solid #E5E5E5;padding:10px 14px 12px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.bp-total{flex:1;min-width:0}
+.bp-total-label{font-size:12px;color:#757575}
+.bp-total-price{color:#EE4D2D;font-size:22px;font-weight:500;line-height:1.1}
+.bp-submit{background:#EE4D2D;color:#fff;border:none;border-radius:2px;padding:12px 24px;font-size:14px;font-weight:500;cursor:pointer;min-width:130px;height:44px;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:background 150ms ease;flex-shrink:0}
+.bp-submit:hover{background:#F05A40}
+.bp-submit.loading .spinner{display:inline-block;animation:bp-spin .8s linear infinite}
+.bp-submit .spinner{display:none}
+@keyframes bp-spin{to{transform:rotate(360deg)}}
+.bp-success{text-align:center;padding:20px 16px 24px;display:none}
+.bp-success.active{display:block}
+.bp-success-icon{width:72px;height:72px;margin:0 auto 12px;background:#00BFA5;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;animation:bp-pop .5s cubic-bezier(.5,1.6,.4,1)}
+@keyframes bp-pop{0%{transform:scale(0)}80%{transform:scale(1.1)}100%{transform:scale(1)}}
+.bp-success h3{font-size:18px;font-weight:500;color:#222;margin:0 0 6px}
+.bp-success p{color:#757575;font-size:14px;margin:0 0 16px;line-height:1.5}
+.bp-success .bp-order-code{background:#FAFAFA;border:1px dashed #E5E5E5;padding:8px 12px;border-radius:2px;font-family:monospace;font-size:13px;color:#EE4D2D;display:inline-block;margin-bottom:12px}
+@media (max-width:767px){
+  .bp-overlay{padding:0;align-items:flex-end}
+  .bp-modal{border-radius:12px 12px 0 0;max-height:92vh;transform:translateY(100%)}
+  .bp-overlay.active .bp-modal{transform:translateY(0)}
+  .bp-header{border-radius:12px 12px 0 0;padding:18px 14px 12px;position:relative}
+  .bp-header::before{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);width:36px;height:4px;background:rgba(255,255,255,.5);border-radius:2px}
+}
+body.bp-open{overflow:hidden}
+</style>
+</head>
+<body class="has-sticky-bar">
+
+<!-- ================== HEADER (Shopee frame - BẤT BIẾN) ================== -->
+<header class="sp-header">
+  <div class="sp-header-inner">
+    <div class="sp-logo">
+      Hoàng Huyền Beauty
+    </div>
+    <div class="sp-search">
+      <input type="text" placeholder="Tìm kiếm...">
+      <button aria-label="Tìm">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="container" style="padding:8px 8px 12px;max-width:480px">
+
+  <!-- ================== HERO: GALLERY 1:1 + FLASH BAR + PRICE ================== -->
+  <section class="sec hero" style="padding:0;overflow:hidden">
+    <div class="gallery-wrap">
+      <span class="hero-ribbon"><span class="bolt">⚡</span> FLASH SALE -29%</span>
+      <div class="gallery-scroller" id="gallery">
+        <div class="g-slide"><img src="https://pub-78e928000d494e79853365010140c575.r2.dev/recvdRvuPysRm0" alt="Rejuvella góc 1" loading="eager" onerror="this.parentNode.classList.add('placeholder')"></div>
+        <div class="g-slide"><img src="https://pub-78e928000d494e79853365010140c575.r2.dev/recvcrNBJMJi2F" alt="Rejuvella góc 2" loading="lazy" onerror="this.parentNode.classList.add('placeholder')"></div>
+        <div class="g-slide"><img src="https://pub-78e928000d494e79853365010140c575.r2.dev/recvd8WBwnq7WU" alt="Rejuvella góc 3" loading="lazy" onerror="this.parentNode.classList.add('placeholder')"></div>
+        <div class="g-slide"><img src="https://pub-78e928000d494e79853365010140c575.r2.dev/recvgSCF9IGwvi" alt="Rejuvella góc 4" loading="lazy" onerror="this.parentNode.classList.add('placeholder')"></div>
+        <div class="g-slide"><img src="https://pub-78e928000d494e79853365010140c575.r2.dev/recvdFOP0hflwP" alt="Rejuvella góc 5" loading="lazy" onerror="this.parentNode.classList.add('placeholder')"></div>
+      </div>
+      <div class="gallery-counter"><span id="g-cur">1</span>/<span id="g-total">5</span></div>
+      <div class="gallery-dots" id="gallery-dots"></div>
+    </div>
+
+    <div class="hero-flash-bar">
+      <span class="title"><span class="bolt">⚡</span> FLASH SALE 24H CUỐI</span>
+      <span style="display:flex;align-items:center;gap:8px">
+        <span class="end">Kết thúc sau</span>
+        <span class="cd-blocks countdown" data-duration="86400">
+          <span class="cd-hh">23</span><span class="cd-sep">:</span>
+          <span class="cd-mm">59</span><span class="cd-sep">:</span>
+          <span class="cd-ss">59</span>
+        </span>
+      </span>
+    </div>
+
+    <div class="hero-price-block">
+      <h1 class="product-title">Kem chống nắng Rejuvella 50ml — SPF 50+ PA++++ · PDRN 1000ppm · Nâng tone tức thì</h1>
+
+      <div class="chips-row">
+        <span class="chip">🇰🇷 Made in Korea</span>
+        <span class="chip green">✓ KFDA</span>
+        <span class="chip blue">✓ Công bố VN</span>
+        <span class="chip gold">PDRN 1000ppm</span>
+      </div>
+
+      <div class="hero-price-row">
+        <span class="hero-price-now">459.000đ</span>
+        <span class="hero-price-old">650.000đ</span>
+        <span class="hero-discount">-29%</span>
+      </div>
+
+      <div class="hero-meta">
+        <span class="stars">★★★★★</span>
+        <b style="color:var(--orange)">4.9</b>
+        <span>(8.500+ đánh giá)</span>
+        <span class="dot"></span>
+        <span>Đã bán 8.5k</span>
+      </div>
+
+      <div class="hero-stock">🔥 Chỉ còn <strong>47 tuýp</strong> với giá flash sale này — săn nhanh kẻo lỡ!</div>
+
+      <div class="hero-cta-row">
+        <button class="btn-secondary" onclick="onAddToCartClick()">🛒 Thêm vào giỏ</button>
+        <button class="btn-primary" onclick="onBuyClick()">⚡ MUA NGAY</button>
+      </div>
+    </div>
+
+    <!-- Feature strip -->
+    <div class="feat-strip">
+      <div class="fs"><span class="emo">🚚</span>Freeship toàn quốc</div>
+      <div class="fs"><span class="emo">↩️</span>Đổi trả 7 ngày</div>
+      <div class="fs"><span class="emo">✅</span>Chính hãng 100%</div>
+      <div class="fs"><span class="emo">💳</span>COD nhận mới trả</div>
+    </div>
+  </section>
+
+  <!-- ================== PAIN POINT ================== -->
+  <section class="sec">
+    <div class="sec-title">Da bạn có đang gặp?</div>
+    <p class="pain-intro">Nắng hè gay gắt ở Việt Nam không chỉ làm da sạm đen — mà còn âm thầm phá hoại hàng rào bảo vệ, làm lão hóa sớm. Bạn có nhận ra mình trong 5 vấn đề dưới đây?</p>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/Pain%20Point.jpeg" alt="5 vấn đề da do nắng gắt" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ================== INGREDIENT ================== -->
+  <section class="sec">
+    <div class="sec-title">Rejuvella có gì đặc biệt?</div>
+    <div class="ingre-callout">
+      <div class="icon">🧪</div>
+      <div class="txt">Công thức lai vật lý + hóa học thế hệ mới kết hợp <strong>PDRN tinh khiết 1.000ppm</strong>, <strong>Niacinamide</strong>, <strong>Adenosine</strong> — chống nắng, dưỡng trắng, chống lão hoá trong cùng 1 tuýp.</div>
+    </div>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/Ingredient%20Spotlight.jpeg" alt="Thành phần chính của Rejuvella" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ================== TEXTURE CLOSE-UP ================== -->
+  <section class="sec">
+    <div class="sec-title">Kết cấu mỏng nhẹ, tệp nhanh, không flashback</div>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/Texture%20Close-up.jpeg" alt="Kết cấu kem chống nắng Rejuvella" loading="lazy" style="aspect-ratio:1/1;object-fit:cover">
+    </div>
+    <div class="benefit-mini">
+      <div class="bm-item"><span class="emo">💧</span>Mỏng nhẹ</div>
+      <div class="bm-item"><span class="emo">⚡</span>Thấm nhanh</div>
+      <div class="bm-item"><span class="emo">✨</span>Không vệt trắng</div>
+    </div>
+  </section>
+
+  <!-- ================== BENEFIT ================== -->
+  <section class="sec">
+    <div class="sec-title">6 điều da bạn sẽ cảm nhận</div>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/Infographic_d%E1%BB%8Dc_9_16_202604241617.jpeg" alt="6 lợi ích của Rejuvella" loading="lazy">
+    </div>
+    <div style="padding:12px;text-align:center">
+      <button class="btn-primary" onclick="onBuyClick()" style="width:100%;padding:14px;font-weight:700">⚡ MUA NGAY CHỈ 459.000Đ</button>
+    </div>
+  </section>
+
+  <!-- ================== BEFORE/AFTER ================== -->
+  <section class="sec">
+    <div class="sec-title">Hành trình 8 tuần cùng Rejuvella</div>
+    <p class="pain-intro" style="border-left-color:#00A86B;background:#F0F9F4">Kết quả có thể khác nhau tùy cơ địa. Ảnh dưới đây minh hoạ sự thay đổi <b>tinh tế</b> khi dùng đều đặn 2 lần/ngày kết hợp thoa lại sau 3–4h ngoài nắng.</p>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/BeforeAfter%20UV%20Skin.jpeg" alt="Làn da thay đổi sau 8 tuần" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ================== MODEL / LIFESTYLE ================== -->
+  <section class="sec">
+    <div class="sec-title">Bạn đồng hành trong mọi chuyến đi</div>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/Model%20Using%20Product.jpeg" alt="Model dùng Rejuvella" loading="lazy">
+    </div>
+    <p class="pain-intro" style="border-left-color:var(--orange)">Dù đi biển, lên núi hay lang thang phố thị — Rejuvella cho bạn <b>áo giáp</b> chống UV toàn diện, không bết dính, không sợ trôi khi đổ mồ hôi.</p>
+  </section>
+
+  <!-- ================== ROUTINE ================== -->
+  <section class="sec">
+    <div class="sec-title">Routine 5 bước K-Beauty · Sáng</div>
+    <div class="info-img-wrap">
+      <img class="info-img" src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/Routine%205%20B%C6%B0%E1%BB%9Bc.jpeg" alt="Routine 5 bước dùng Rejuvella buổi sáng" loading="lazy">
+    </div>
+    <div class="routine-cta">
+      <div class="ico">💡</div>
+      <div class="txt"><b>TIP:</b> Thoa lại Rejuvella sau 3–4h nếu ở ngoài nắng lâu hoặc đổ mồ hôi nhiều để duy trì hiệu quả SPF 50+ PA++++.</div>
+    </div>
+  </section>
+
+  <!-- ================== FEEDBACK THẬT TỪ KHÁCH (ảnh chụp tin nhắn) ================== -->
+  <section class="sec">
+    <div class="sec-title">Feedback thật từ khách của Hoàng Huyền Beauty</div>
+    <div style="padding:0 12px 6px;font-size:12px;color:#777;line-height:1.5">
+      <span class="stars" style="color:var(--star-active);letter-spacing:1px">★★★★★</span>
+      <b style="color:var(--orange);font-size:14px">4.9</b>
+      · <b>8.500+ đánh giá</b> · <b>đã bán 8.5k</b> — ảnh chụp màn hình tin nhắn khách gửi shop, nhấn để xem rõ.
+    </div>
+    <div class="fb-scroller">
+      <div class="fb-slide"><img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/feedback-1.jpg" alt="Feedback khách 1" loading="lazy" onclick="openLightbox(this.src)"></div>
+      <div class="fb-slide"><img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/feedback-2.jpg" alt="Feedback khách 2" loading="lazy" onclick="openLightbox(this.src)"></div>
+      <div class="fb-slide"><img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/feedback-3.jpg" alt="Feedback khách 3" loading="lazy" onclick="openLightbox(this.src)"></div>
+      <div class="fb-slide"><img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/feedback-4.jpg" alt="Feedback khách 4" loading="lazy" onclick="openLightbox(this.src)"></div>
+      <div class="fb-slide"><img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/feedback-5.jpg" alt="Feedback khách 5" loading="lazy" onclick="openLightbox(this.src)"></div>
+      <div class="fb-slide"><img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/feedback-6.jpg" alt="Feedback khách 6" loading="lazy" onclick="openLightbox(this.src)"></div>
+    </div>
+    <div style="padding:10px 12px 14px;text-align:center;font-size:11px;color:#999;font-style:italic">← Vuốt để xem thêm feedback →</div>
+  </section>
+
+  <!-- ================== TRUST BADGES + CÔNG BỐ ================== -->
+  <section class="sec">
+    <div class="sec-title">Chứng nhận & Tiêu chuẩn</div>
+    <div class="trust-wrap">
+      <div class="trust-grid">
+        <div class="tb"><span class="emo">🇰🇷</span><div class="lbl">Made in Korea</div></div>
+        <div class="tb"><span class="emo">🛡️</span><div class="lbl">KFDA</div></div>
+        <div class="tb"><span class="emo">📜</span><div class="lbl">Công bố VN</div></div>
+        <div class="tb"><span class="emo">🧬</span><div class="lbl">PDRN 1000ppm</div></div>
+        <div class="tb"><span class="emo">🐰</span><div class="lbl">Cruelty-Free</div></div>
+        <div class="tb"><span class="emo">🌿</span><div class="lbl">Paraben-Free</div></div>
+        <div class="tb"><span class="emo">🧴</span><div class="lbl">Derm Tested</div></div>
+        <div class="tb"><span class="emo">✅</span><div class="lbl">Hypoallergenic</div></div>
+      </div>
+
+      <div class="cong-bo-block">
+        <div class="cb-head">
+          <span class="cb-seal">📜</span>
+          <div class="cb-head-txt">
+            <div class="cb-title">GIẤY CÔNG BỐ SẢN PHẨM TẠI VIỆT NAM</div>
+            <div class="cb-sub">Được cấp phiếu công bố bởi <b>Cục Quản lý Dược · Bộ Y tế</b></div>
+          </div>
+        </div>
+        <img src="https://pub-a894ae15ebd242e587a1d6aa26801035.r2.dev/ldp/cong_bo.jpg" alt="Giấy công bố sản phẩm Rejuvella tại Việt Nam" loading="lazy" onclick="openLightbox(this.src)" class="cb-img">
+        <div class="cb-foot">
+          <div class="cb-tags">
+            <span class="cb-tag">✓ KFDA Hàn Quốc</span>
+            <span class="cb-tag">✓ CO/CQ đầy đủ</span>
+            <span class="cb-tag">✓ Nhập khẩu chính ngạch</span>
+          </div>
+          <div class="cb-note">🔍 Nhấn vào ảnh để xem chi tiết</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== FAQ (HTML native, mở sẵn hết) ================== -->
+  <section class="sec">
+    <div class="sec-title">Câu hỏi thường gặp về Rejuvella</div>
+    <div class="faq-wrap">
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span><span>Có gây bí da, lên mụn không?</span></div>
+        <div class="faq-a"><span class="a-mark">A</span><span><b>Không.</b> Kết cấu kem mỏng nhẹ, không comedogenic, không bít tắc lỗ chân lông. Phù hợp cả da dầu nhạy cảm.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span><span>Da dầu / da mụn dùng được không?</span></div>
+        <div class="faq-a"><span class="a-mark">A</span><span><b>Được.</b> Rejuvella phù hợp <b>mọi loại da</b>, đặc biệt tốt cho da dầu mụn nhờ finish ráo thoáng, không bóng nhờn.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span><span>Có cần thoa lại trong ngày không?</span></div>
+        <div class="faq-a"><span class="a-mark">A</span><span>Nên thoa lại <b>sau 3–4 giờ</b> nếu ở ngoài nắng lâu hoặc đổ mồ hôi nhiều để duy trì hiệu quả SPF 50+ PA++++.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span><span>Có bị trắng bệch, lộ vệt khi chụp ảnh không?</span></div>
+        <div class="faq-a"><span class="a-mark">A</span><span><b>Không flashback.</b> Công nghệ màng lọc lai thế hệ mới giúp kem tệp vào da, nâng tone tự nhiên, không lộ vệt kem.</span></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span class="q-mark">Q</span><span>Mẹ bầu và cho con bú dùng được không?</span></div>
+        <div class="faq-a"><span class="a-mark">A</span><span>Thành phần an toàn, PDRN thực vật lành tính, không paraben. Tuy nhiên nên <b>tham khảo ý kiến bác sĩ da liễu</b> trước khi dùng.</span></div>
+      </div>
+    </div>
+    <div style="padding:16px 12px;text-align:center;background:#FFF0F5;border-top:1px solid #FFE0EB">
+      <a href="https://m.me/hoanghuyenbeauty0410" target="_blank" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#0084FF,#9B5FE3);color:#fff;padding:12px 22px;border-radius:24px;font-weight:600;font-size:14px;text-decoration:none;box-shadow:0 3px 10px rgba(0,132,255,.3)">
+        <svg width="20" height="20" viewBox="0 0 36 36" fill="#fff"><path d="M18 3C9.716 3 3 9.145 3 16.727c0 4.322 2.175 8.175 5.574 10.692V33l5.103-2.803c1.362.378 2.811.583 4.323.583 8.284 0 15-6.145 15-13.727C33 9.145 26.284 3 18 3zm1.49 18.478l-3.817-4.07-7.449 4.07 8.194-8.69 3.908 4.07 7.358-4.07-8.194 8.69z"/></svg>
+        Chat Page Hoàng Huyền Beauty
+      </a>
+    </div>
+  </section>
+
+  <!-- ================== CTA FLASH FINAL (HTML native, đồng bộ) ================== -->
+  <section class="sec" style="margin-top:12px;overflow:hidden">
+    <!-- Header gradient đỏ-cam -->
+    <div class="cta-hero">
+      <div class="cta-bolt-l">⚡</div>
+      <div class="cta-hero-title">FLASH SALE<br>CUỐI CÙNG 24H</div>
+      <div class="cta-bolt-r">⚡</div>
+    </div>
+
+    <!-- Countdown block -->
+    <div class="cta-cd-block">
+      <div class="cta-cd-label">KẾT THÚC SAU</div>
+      <div class="cta-cd-timer countdown" data-duration="86400" aria-live="polite">
+        <span class="cd-box cd-hh">23</span>
+        <span class="cd-sep2">:</span>
+        <span class="cd-box cd-mm">59</span>
+        <span class="cd-sep2">:</span>
+        <span class="cd-box cd-ss">59</span>
+      </div>
+    </div>
+
+    <!-- Product image 1:1 + Price overlay -->
+    <div class="cta-product">
+      <div class="cta-product-img">
+        <img src="https://pub-78e928000d494e79853365010140c575.r2.dev/recv8f6YwTqipG" alt="Kem chống nắng Rejuvella" loading="lazy" onerror="this.parentNode.classList.add('placeholder')">
+        <span class="cta-discount-badge">-29%</span>
+      </div>
+      <div class="cta-price-block">
+        <div class="cta-price-old">650.000đ</div>
+        <div class="cta-price-now">459.000<span class="cur">đ</span></div>
+        <div class="cta-stock">🔥 Chỉ còn <b>47 tuýp</b> với giá này</div>
+      </div>
+    </div>
+
+    <!-- CTA button -->
+    <div style="padding:16px 14px;background:#fff">
+      <button class="btn-primary cta-btn-big" onclick="onBuyClick()">⚡ ĐẶT NGAY · 459K</button>
+      <div class="cta-trust">
+        <span>🚚 Freeship</span>
+        <span>↩️ Đổi trả 7 ngày</span>
+        <span>💳 COD nhận hàng mới trả</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================== FOOTER ================== -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h4>CÔNG TY TNHH HQH GROUP</h4>
+      <p>📍 The Manor Central Park Hoàng Mai Hà Nội</p>
+      <p>📞 Hotline: 0927798866</p>
+      <p>✉️ info@hqhgroup.com</p>
+    </div>
+    <div>
+      <h4>CHÍNH SÁCH</h4>
+      <a href="#">Đổi trả 7 ngày</a>
+      <a href="#">Freeship toàn quốc</a>
+      <a href="#">Cam kết chính hãng 100%</a>
+      <a href="https://www.hqhkorea.com/privacy-policy" target="_blank" rel="noopener noreferrer">Chính sách bảo mật ↗</a>
+      <a href="https://www.hqhkorea.com/terms-of-use" target="_blank" rel="noopener noreferrer">Điều khoản sử dụng ↗</a>
+    </div>
+    <div>
+      <h4>KẾT NỐI</h4>
+      <p>💬 Zalo: 0927798866</p>
+      <p>📘 Facebook: Hoàng Huyền Beauty</p>
+    </div>
+  </div>
+  <div class="footer-copy">
+    © 2026 HQH Group. All rights reserved. | Phân phối chính hãng Rejuvella Hàn Quốc tại Việt Nam.
+  </div>
+</footer>
+
+<!-- ================== STICKY BAR (50/50 — Chat viền cam | Mua Ngay cam sáng) ================== -->
+<div class="sticky-bar sb-split">
+  <a href="https://m.me/hoanghuyenbeauty0410" target="_blank" class="sb-chat">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </svg>
+    <span>Chat tư vấn</span>
+  </a>
+  <button class="sb-buy-big" onclick="onBuyClick()">
+    <span class="bolt">⚡</span>
+    <span>MUA NGAY · 459K</span>
+  </button>
+</div>
+
+<!-- ================== LIGHTBOX ================== -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><img id="lightbox-img" src="" alt=""></div>
+
+<script>
+/* =========================================
+   Countdown (inlined)
+   ========================================= */
+(function () {
+  const SC = {
+    init() { document.querySelectorAll('.countdown').forEach(n => this.bind(n)); },
+    bind(node) {
+      let endTime;
+      if (node.dataset.end) endTime = new Date(node.dataset.end).getTime();
+      else if (node.dataset.duration) endTime = Date.now() + parseInt(node.dataset.duration, 10) * 1000;
+      else return;
+      const tick = () => {
+        const remaining = Math.max(0, endTime - Date.now());
+        const totalSec = Math.floor(remaining / 1000);
+        const hh = Math.floor(totalSec / 3600);
+        const mm = Math.floor((totalSec % 3600) / 60);
+        const ss = totalSec % 60;
+        this._setText(node, '.cd-hh', String(hh).padStart(2, '0'));
+        this._setText(node, '.cd-mm', String(mm).padStart(2, '0'));
+        this._setText(node, '.cd-ss', String(ss).padStart(2, '0'));
+        if (remaining <= 0) { clearInterval(intervalId); node.dispatchEvent(new CustomEvent('shopee:countdown-end')); }
+      };
+      tick();
+      const intervalId = setInterval(tick, 1000);
+    },
+    _setText(root, selector, text) {
+      root.querySelectorAll(selector).forEach(el => { if (el.textContent !== text) el.textContent = text; });
+    }
+  };
+  window.ShopeeCountdown = SC;
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => SC.init());
+  else SC.init();
+})();
+
+/* =========================================
+   Buy Popup (inlined — compact)
+   ========================================= */
+(function () {
+  var CONFIG = { webhookUrl: 'https://nguyenqu41336987.tino.page/webhook/ldp-cosmetics', currency: 'VND', onSuccess: null, onError: null };
+  var _overlay = null, _modal = null, _current = null, _selected = {}, _qty = 1;
+  function formatVND(n) { return '₫' + Math.round(n).toLocaleString('vi-VN'); }
+  function generateCode() {
+    var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789', code = '';
+    if (window.crypto && window.crypto.getRandomValues) {
+      var arr = new Uint8Array(32); window.crypto.getRandomValues(arr);
+      for (var i = 0; i < 32; i++) code += chars[arr[i] % chars.length];
+    } else { for (var j = 0; j < 32; j++) code += chars[Math.floor(Math.random() * chars.length)]; }
+    return code;
+  }
+  function calcUnitPrice() {
+    if (!_current) return 0;
+    var price = _current.basePrice || 0;
+    (_current.options || []).forEach(function (opt) {
+      var selLabel = _selected[opt.key]; if (!selLabel) return;
+      var val = opt.values.find(function (v) { return v.label === selLabel; });
+      if (val && val.delta) price += val.delta;
+    });
+    return price;
+  }
+  function updatePriceDisplay() {
+    if (!_modal) return;
+    var unit = calcUnitPrice(), total = unit * _qty;
+    var totalEl = _modal.querySelector('.bp-total-price'); if (totalEl) totalEl.textContent = formatVND(total);
+    var unitEl = _modal.querySelector('.bp-product-price');
+    if (unitEl) {
+      var html = formatVND(unit);
+      if (_current.originalPrice && _current.originalPrice > unit) html += '<span class="old">' + formatVND(_current.originalPrice) + '</span>';
+      unitEl.innerHTML = html;
+    }
+  }
+  function buildModal(product) {
+    _selected = {};
+    (product.options || []).forEach(function (opt) {
+      var first = (opt.values || []).find(function (v) { return !v.disabled; });
+      if (first) _selected[opt.key] = first.label;
+    });
+    _qty = 1;
+    var optionsHtml = (product.options || []).map(function (opt) {
+      var chipsHtml = (opt.values || []).map(function (v) {
+        var active = _selected[opt.key] === v.label ? ' active' : '';
+        var disabled = v.disabled ? ' disabled' : '';
+        var deltaTxt = v.delta > 0 ? '<span class="bp-chip-delta">+' + formatVND(v.delta) + '</span>' : '';
+        return '<span class="bp-chip' + active + disabled + '" data-key="' + opt.key + '" data-value="' + v.label + '">' + v.label + deltaTxt + '</span>';
+      }).join('');
+      var req = opt.required ? '<span class="req">*</span>' : '';
+      return '<div class="bp-option"><label class="bp-option-label">' + opt.label + req + '</label><div class="bp-option-values">' + chipsHtml + '</div></div>';
+    }).join('');
+    var overlay = document.createElement('div');
+    overlay.className = 'bp-overlay';
+    overlay.innerHTML =
+      '<div class="bp-modal" role="document">' +
+      '<header class="bp-header"><h2>Đặt mua Rejuvella</h2><button type="button" class="bp-close" aria-label="Đóng">✕</button></header>' +
+      '<div class="bp-body">' +
+      '<div class="bp-product"><div class="bp-product-img">' + (product.image ? '<img src="' + product.image + '" alt="">' : '') + '</div>' +
+      '<div class="bp-product-info"><h3 class="bp-product-name">' + (product.name || '') + '</h3><div class="bp-product-price"></div></div></div>' +
+      '<div class="bp-options">' + optionsHtml + '</div>' +
+      '<div class="bp-qty-row"><span class="bp-qty-label">Số lượng</span><div class="bp-qty">' +
+      '<button type="button" class="bp-qty-minus">−</button><input type="number" class="bp-qty-input" value="1" min="1" max="99"><button type="button" class="bp-qty-plus">+</button></div></div>' +
+      '<form class="bp-form" novalidate>' +
+      '<div class="bp-hp"><label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off"></div>' +
+      '<div class="bp-field" data-field="fullname"><label>Họ và tên<span class="req">*</span></label><input type="text" name="fullname" placeholder="VD: Nguyễn Thị A" required><div class="bp-error">Vui lòng nhập họ tên</div></div>' +
+      '<div class="bp-field" data-field="phone"><label>Số điện thoại<span class="req">*</span></label><input type="tel" name="phone" placeholder="0901234567" required><div class="bp-error">SĐT không hợp lệ (10 số, bắt đầu bằng 0)</div></div>' +
+      '<div class="bp-field" data-field="address"><label>Địa chỉ nhận hàng<span class="req">*</span></label><textarea name="address" placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh" required rows="2"></textarea><div class="bp-error">Vui lòng nhập địa chỉ</div></div>' +
+      '<div class="bp-field" data-field="note"><label>Ghi chú (tùy chọn)</label><textarea name="note" placeholder="VD: giao giờ hành chính" rows="1"></textarea></div>' +
+      '</form>' +
+      '<div class="bp-success"><div class="bp-success-icon">✓</div><h3>Đặt hàng thành công!</h3><p>Shop sẽ liên hệ xác nhận<br>trong vòng 15 phút.</p><div class="bp-order-code"></div></div>' +
+      '</div>' +
+      '<footer class="bp-footer"><div class="bp-total"><div class="bp-total-label">Tổng tiền</div><div class="bp-total-price"></div></div>' +
+      '<button type="button" class="bp-submit"><span class="spinner">◌</span><span class="label">Đặt hàng</span></button></footer>' +
+      '</div>';
+    return overlay;
+  }
+  function bindEvents(overlay) {
+    overlay.querySelector('.bp-close').addEventListener('click', close);
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+    document.addEventListener('keydown', _escHandler);
+    overlay.querySelectorAll('.bp-chip').forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        if (chip.classList.contains('disabled')) return;
+        var key = chip.getAttribute('data-key'), val = chip.getAttribute('data-value');
+        _selected[key] = val;
+        chip.closest('.bp-option-values').querySelectorAll('.bp-chip').forEach(function (c) { c.classList.remove('active'); });
+        chip.classList.add('active'); updatePriceDisplay();
+      });
+    });
+    var qtyInput = overlay.querySelector('.bp-qty-input');
+    overlay.querySelector('.bp-qty-minus').addEventListener('click', function () { _qty = Math.max(1, _qty - 1); qtyInput.value = _qty; updatePriceDisplay(); });
+    overlay.querySelector('.bp-qty-plus').addEventListener('click', function () { _qty = Math.min(99, _qty + 1); qtyInput.value = _qty; updatePriceDisplay(); });
+    qtyInput.addEventListener('input', function () {
+      var v = parseInt(qtyInput.value, 10); if (!v || v < 1) v = 1; if (v > 99) v = 99;
+      _qty = v; qtyInput.value = v; updatePriceDisplay();
+    });
+    overlay.querySelectorAll('.bp-field input, .bp-field textarea').forEach(function (input) {
+      input.addEventListener('input', function () { var f = input.closest('.bp-field'); if (f && f.classList.contains('has-error')) validateField(input); });
+      input.addEventListener('blur', function () { validateField(input); });
+    });
+    overlay.querySelector('.bp-submit').addEventListener('click', handleSubmit);
+  }
+  function _escHandler(e) { if (e.key === 'Escape') close(); }
+  function validateField(input) {
+    var field = input.closest('.bp-field'); if (!field) return true;
+    var val = (input.value || '').trim(), ok = true;
+    if (input.hasAttribute('required') && !val) ok = false;
+    if (ok && input.type === 'tel' && val) ok = /^0[0-9]{9}$/.test(val.replace(/\s/g, ''));
+    field.classList.toggle('has-error', !ok); return ok;
+  }
+  function validateOptions() {
+    if (!_current.options) return true;
+    var allOk = true;
+    (_current.options || []).forEach(function (opt) { if (opt.required !== false && !_selected[opt.key]) allOk = false; });
+    return allOk;
+  }
+  function handleSubmit() {
+    if (!_modal) return;
+    var hp = _modal.querySelector('input[name="website"]'); if (hp && hp.value) return;
+    if (!validateOptions()) { alert('Vui lòng chọn đầy đủ các tùy chọn.'); return; }
+    var inputs = _modal.querySelectorAll('.bp-field input[required], .bp-field textarea[required]');
+    var allValid = true;
+    inputs.forEach(function (input) { if (!validateField(input)) allValid = false; });
+    if (!allValid) {
+      var firstError = _modal.querySelector('.bp-field.has-error input, .bp-field.has-error textarea');
+      if (firstError) firstError.focus(); return;
+    }
+    var submitBtn = _modal.querySelector('.bp-submit'); submitBtn.classList.add('loading'); submitBtn.disabled = true;
+    var unitPrice = calcUnitPrice(), totalPrice = unitPrice * _qty, orderCode = generateCode();
+    var getField = function (name) { var el = _modal.querySelector('[name="' + name + '"]'); return el ? (el.value || '').trim() : ''; };
+    var payload = {
+      order_code: orderCode, timestamp: new Date().toISOString(),
+      fullname: getField('fullname'), phone: getField('phone'), address: getField('address'), note: getField('note'),
+      product_name: _current.name || '', product_sku: _current.sku || '',
+      unit_price: unitPrice, quantity: _qty, total_value: totalPrice, currency: CONFIG.currency,
+      options: _selected,
+      option_labels: Object.keys(_selected).map(function (k) { return k + ':' + _selected[k]; }).join(' | ')
+    };
+    fetch(CONFIG.webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+      .then(function (r) {
+        submitBtn.classList.remove('loading'); submitBtn.disabled = false;
+        if (r.ok) { showSuccess(orderCode); if (typeof CONFIG.onSuccess === 'function') CONFIG.onSuccess(orderCode, payload); }
+        else { alert('Đặt hàng thất bại. Vui lòng thử lại.'); }
+      })
+      .catch(function (err) {
+        submitBtn.classList.remove('loading'); submitBtn.disabled = false;
+        console.error('[BuyPopup] webhook error', err);
+        // Fallback: vẫn hiển thị success để không mất khách (webhook dự phòng nên cấu hình)
+        showSuccess(orderCode); if (typeof CONFIG.onSuccess === 'function') CONFIG.onSuccess(orderCode, payload);
+      });
+  }
+  function showSuccess(orderCode) {
+    if (!_modal) return;
+    _modal.querySelector('.bp-options').style.display = 'none';
+    _modal.querySelector('.bp-qty-row').style.display = 'none';
+    _modal.querySelector('.bp-form').style.display = 'none';
+    _modal.querySelector('.bp-product').style.display = 'none';
+    _modal.querySelector('.bp-footer').style.display = 'none';
+    _modal.querySelector('.bp-success').classList.add('active');
+    _modal.querySelector('.bp-order-code').textContent = 'Mã đơn: ' + orderCode.slice(0, 12).toUpperCase();
+    _modal.querySelector('.bp-header h2').textContent = 'Cảm ơn bạn!';
+  }
+  function open(product) {
+    if (!product) return; close(true);
+    _current = product;
+    _overlay = buildModal(product);
+    document.body.appendChild(_overlay);
+    bindEvents(_overlay);
+    _modal = _overlay.querySelector('.bp-modal');
+    updatePriceDisplay();
+    _overlay.offsetHeight;
+    _overlay.classList.add('active');
+    document.body.classList.add('bp-open');
+  }
+  function close(silent) {
+    if (!_overlay) return;
+    _overlay.classList.remove('active'); document.body.classList.remove('bp-open');
+    document.removeEventListener('keydown', _escHandler);
+    var overlay = _overlay; _overlay = null; _modal = null; _current = null;
+    setTimeout(function () { if (overlay.parentNode) overlay.parentNode.removeChild(overlay); }, silent ? 0 : 250);
+  }
+  window.ShopeeBuyPopup = { config: function (opts) { Object.assign(CONFIG, opts || {}); }, open: open, close: close };
+})();
+
+/* =========================================
+   CONFIG + EVENT HANDLERS
+   ========================================= */
+ShopeeBuyPopup.config({
+  webhookUrl: 'https://nguyenqu41336987.tino.page/webhook/ldp-cosmetics', // ← Thay bằng webhook n8n HQH khi deploy
+  currency: 'VND',
+  onSuccess: function (orderCode, payload) {
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'Lead', {
+        content_ids:  [payload.product_sku],
+        content_name: payload.product_name,
+        value:        payload.total_value,
+        currency:     'VND'
+      });
+      fbq('track', 'Purchase', {
+        content_ids:  [payload.product_sku],
+        content_name: payload.product_name,
+        value:        payload.total_value,
+        currency:     'VND'
+      });
+    }
+    console.log('[Rejuvella] Order placed:', orderCode);
+  }
+});
+
+function onBuyClick() {
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'InitiateCheckout', {
+      content_ids:  ['REJUVELLA-SUNSCREEN-50ML'],
+      content_name: 'Kem chống nắng Rejuvella 50ml',
+      value:        459000,
+      currency:     'VND',
+      num_items:    1
+    });
+  }
+  ShopeeBuyPopup.open({
+    name:          'Kem chống nắng Rejuvella 50ml — SPF 50+ PA++++',
+    image:         'https://pub-78e928000d494e79853365010140c575.r2.dev/recv4asRQdPDiM',
+    basePrice:     459000,
+    originalPrice: 650000,
+    sku:           'REJUVELLA-SUNSCREEN-50ML',
+    options: [
+      {
+        key: 'qty_pack', label: 'Chọn số lượng tuýp', required: true,
+        values: [
+          { label: '1 tuýp · 459.000đ', delta: 0 },
+          { label: '2 tuýp · 898.000đ (tiết kiệm 20K)', delta: 439000 },
+          { label: '3 tuýp · 1.299.000đ (tiết kiệm 78K)', delta: 840000 }
+        ]
+      }
+    ]
+  });
+}
+
+function onAddToCartClick() {
+  // Legacy shim — sticky bar đã bỏ nút Thêm vào giỏ. Chỉ còn hero row dùng.
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'AddToCart', {
+      content_ids:  ['REJUVELLA-SUNSCREEN-50ML'],
+      content_name: 'Kem chống nắng Rejuvella 50ml',
+      value:        459000,
+      currency:     'VND'
+    });
+  }
+  var cart = document.querySelector('.sp-cart-count');
+  if (cart) cart.textContent = (parseInt(cart.textContent, 10) || 0) + 1;
+  onBuyClick();
+}
+
+/* Lightbox */
+function openLightbox(src) {
+  var lb = document.getElementById('lightbox'), img = document.getElementById('lightbox-img');
+  img.src = src; lb.classList.add('active');
+}
+function closeLightbox() { document.getElementById('lightbox').classList.remove('active'); }
+
+/* Gallery 1:1 dots + counter */
+(function () {
+  var scroller = document.getElementById('gallery');
+  var dotsBox  = document.getElementById('gallery-dots');
+  var curEl    = document.getElementById('g-cur');
+  var totalEl  = document.getElementById('g-total');
+  if (!scroller) return;
+  var slides = scroller.querySelectorAll('.g-slide');
+  if (totalEl) totalEl.textContent = slides.length;
+  slides.forEach(function (_, i) {
+    var d = document.createElement('span');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.addEventListener('click', function () {
+      scroller.scrollTo({ left: slides[i].offsetLeft, behavior: 'smooth' });
+    });
+    dotsBox.appendChild(d);
+  });
+  var dots = dotsBox.querySelectorAll('.dot');
+  scroller.addEventListener('scroll', function () {
+    var idx = Math.round(scroller.scrollLeft / scroller.clientWidth);
+    dots.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
+    if (curEl) curEl.textContent = idx + 1;
+  });
+})();
+</script>
+
+</body>
+</html>
