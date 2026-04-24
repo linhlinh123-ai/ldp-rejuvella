@@ -129,10 +129,13 @@ body.has-sticky-bar{padding-bottom:64px}
 /* HERO */
 .hero{position:relative;background:var(--white)}
 .hero img{width:100%;display:block}
-.hero-flash-bar{background:var(--grad-flashsale);color:#fff;padding:10px 12px;display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}
-.hero-flash-bar .title{font-size:15px;font-weight:700;display:flex;align-items:center;gap:6px}
-.hero-flash-bar .title .bolt{font-size:16px}
-.hero-flash-bar .end{font-size:12px;opacity:.95;margin-right:6px}
+.hero-flash-bar{background:var(--grad-flashsale);color:#fff;padding:8px 10px;display:flex;align-items:center;gap:6px;flex-wrap:nowrap;white-space:nowrap;overflow:hidden}
+.hero-flash-bar .title{flex:0 0 auto;font-size:13px;font-weight:800;display:inline-flex;align-items:center;gap:4px;letter-spacing:.2px}
+.hero-flash-bar .title .bolt{font-size:14px}
+.hero-flash-bar .end{flex:1;min-width:0;font-size:11px;opacity:.95;text-align:right;overflow:hidden;text-overflow:ellipsis}
+.hero-flash-bar .cd-blocks{flex:0 0 auto}
+.hero-flash-bar .cd-hh,.hero-flash-bar .cd-mm,.hero-flash-bar .cd-ss{padding:2px 5px;font-size:12px;min-width:22px}
+.hero-flash-bar .cd-sep{color:#fff;font-size:12px}
 .hero-price-block{padding:14px 12px;background:#fff}
 .hero-price-row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
 .hero-price-now{color:var(--orange);font-size:30px;font-weight:700;letter-spacing:.2px}
@@ -406,14 +409,12 @@ body.bp-open{overflow:hidden}
     </div>
 
     <div class="hero-flash-bar">
-      <span class="title"><span class="bolt">⚡</span> FLASH SALE 24H CUỐI</span>
-      <span style="display:flex;align-items:center;gap:8px">
-        <span class="end">Kết thúc sau</span>
-        <span class="cd-blocks countdown" data-duration="86400">
-          <span class="cd-hh">23</span><span class="cd-sep">:</span>
-          <span class="cd-mm">59</span><span class="cd-sep">:</span>
-          <span class="cd-ss">59</span>
-        </span>
+      <span class="title"><span class="bolt">⚡</span> FLASH SALE</span>
+      <span class="end">Kết thúc sau</span>
+      <span class="cd-blocks countdown" data-duration="86400">
+        <span class="cd-hh">23</span><span class="cd-sep">:</span>
+        <span class="cd-mm">59</span><span class="cd-sep">:</span>
+        <span class="cd-ss">59</span>
       </span>
     </div>
 
