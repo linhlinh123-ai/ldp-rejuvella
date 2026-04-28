@@ -875,6 +875,9 @@ function closeLightbox(){
   });
 })();
 
+/* Session tracking — lưu mốc thời gian user load page */
+var SESSION_START = Date.now();
+
 function getUTMParams(){
   var p = new URLSearchParams(window.location.search);
   return {
@@ -1024,7 +1027,8 @@ function getUTMParams(){
       meta_pixel_id:'2139256383565280',
       utm_source:utm.utm_source, utm_campaign:utm.utm_campaign, utm_medium:utm.utm_medium,
       utm_term:utm.utm_term, utm_content:utm.utm_content,
-      page_url:window.location.href, referrer:document.referrer
+      page_url:window.location.href, referrer:document.referrer,
+      session_duration: Math.floor((Date.now() - SESSION_START) / 1000)
     };
     fetch(CONFIG.webhookUrl, {
       method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)
