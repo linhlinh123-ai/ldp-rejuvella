@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
 <!-- theme by noti.vn - theme này được tạo từ skills của noti.vn -->
@@ -770,6 +770,22 @@ body.bp-open{overflow:hidden}
 })();
 
 /* =========================================
+   Session tracking + UTM helpers
+   ========================================= */
+var SESSION_START = Date.now();
+
+function getUTMParams(){
+  var p = new URLSearchParams(window.location.search);
+  return {
+    utm_source:   p.get('utm_source')   || '',
+    utm_campaign: p.get('utm_campaign') || '',
+    utm_medium:   p.get('utm_medium')   || '',
+    utm_term:     p.get('utm_term')     || '',
+    utm_content:  p.get('utm_content')  || ''
+  };
+}
+
+/* =========================================
    Buy Popup (inlined — compact)
    ========================================= */
 (function () {
@@ -901,13 +917,19 @@ body.bp-open{overflow:hidden}
     var submitBtn = _modal.querySelector('.bp-submit'); submitBtn.classList.add('loading'); submitBtn.disabled = true;
     var unitPrice = calcUnitPrice(), totalPrice = unitPrice * _qty, orderCode = generateCode();
     var getField = function (name) { var el = _modal.querySelector('[name="' + name + '"]'); return el ? (el.value || '').trim() : ''; };
+    var utm = getUTMParams();
     var payload = {
       order_code: orderCode, timestamp: new Date().toISOString(),
       fullname: getField('fullname'), phone: getField('phone'), address: getField('address'), note: getField('note'),
       product_name: _current.name || '', product_sku: _current.sku || '',
       unit_price: unitPrice, quantity: _qty, total_value: totalPrice, currency: CONFIG.currency,
       options: _selected,
-      option_labels: Object.keys(_selected).map(function (k) { return k + ':' + _selected[k]; }).join(' | ')
+      option_labels: Object.keys(_selected).map(function (k) { return k + ':' + _selected[k]; }).join(' | '),
+      meta_pixel_id: '2139256383565280',
+      utm_source: utm.utm_source, utm_campaign: utm.utm_campaign, utm_medium: utm.utm_medium,
+      utm_term: utm.utm_term, utm_content: utm.utm_content,
+      page_url: window.location.href, referrer: document.referrer,
+      session_duration: Math.floor((Date.now() - SESSION_START) / 1000)
     };
     fetch(CONFIG.webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
       .then(function (r) {
