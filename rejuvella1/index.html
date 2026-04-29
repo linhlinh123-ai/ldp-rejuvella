@@ -770,9 +770,21 @@ body.bp-open{overflow:hidden}
 })();
 
 /* =========================================
-   Session tracking + UTM helpers
+   Session tracking + UTM + CAPI matching helpers
    ========================================= */
 var SESSION_START = Date.now();
+var CLIENT_IP = '';
+
+/* Fetch client IP early — non-blocking. Nếu fail, n8n có thể đọc IP từ
+   header X-Forwarded-For làm fallback. */
+(function fetchClientIP(){
+  try {
+    fetch('https://api.ipify.org?format=json', { cache: 'no-store' })
+      .then(function(res){ return res.json(); })
+      .then(function(data){ CLIENT_IP = (data && data.ip) || ''; })
+      .catch(function(){ CLIENT_IP = ''; });
+  } catch(e) { CLIENT_IP = ''; }
+})();
 
 function getUTMParams(){
   var p = new URLSearchParams(window.location.search);
@@ -783,6 +795,27 @@ function getUTMParams(){
     utm_term:     p.get('utm_term')     || '',
     utm_content:  p.get('utm_content')  || ''
   };
+}
+
+function getCookie(name){
+  var match = document.cookie.match(new RegExp('(^|;\\s*)' + name + '=([^;]+)'));
+  return match ? decodeURIComponent(match[2]) : '';
+}
+
+/* FBC: ưu tiên cookie _fbc do Pixel set, fallback parse fbclid từ URL
+   Format chuẩn Meta CAPI: fb.1.{timestamp_ms}.{fbclid} */
+function getFBC(){
+  var fbc = getCookie('_fbc');
+  if (fbc) return fbc;
+  var p = new URLSearchParams(window.location.search);
+  var fbclid = p.get('fbclid');
+  if (fbclid) return 'fb.1.' + Date.now() + '.' + fbclid;
+  return '';
+}
+
+/* FBP: cookie _fbp do Meta Pixel auto-set khi PageView fire */
+function getFBP(){
+  return getCookie('_fbp');
 }
 
 /* =========================================
@@ -929,7 +962,12 @@ function getUTMParams(){
       utm_source: utm.utm_source, utm_campaign: utm.utm_campaign, utm_medium: utm.utm_medium,
       utm_term: utm.utm_term, utm_content: utm.utm_content,
       page_url: window.location.href, referrer: document.referrer,
-      session_duration: Math.floor((Date.now() - SESSION_START) / 1000)
+      session_duration: Math.floor((Date.now() - SESSION_START) / 1000),
+      /* === Meta CAPI matching params === */
+      client_ip_address: CLIENT_IP,
+      client_user_agent: navigator.userAgent || '',
+      fbc: getFBC(),
+      fbp: getFBP()
     };
     fetch(CONFIG.webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
       .then(function (r) {
@@ -984,20 +1022,9 @@ ShopeeBuyPopup.config({
   webhookUrl: 'https://nguyenqu41336987.tino.page/webhook/ldp-cosmetics', // ← Thay bằng webhook n8n HQH khi deploy
   currency: 'VND',
   onSuccess: function (orderCode, payload) {
-    if (typeof fbq !== 'undefined') {
-      fbq('track', 'Lead', {
-        content_ids:  [payload.product_sku],
-        content_name: payload.product_name,
-        value:        payload.total_value,
-        currency:     'VND'
-      });
-      fbq('track', 'Purchase', {
-        content_ids:  [payload.product_sku],
-        content_name: payload.product_name,
-        value:        payload.total_value,
-        currency:     'VND'
-      });
-    }
+    /* Conversion event (Lead/Purchase) sẽ được fire phía server bởi n8n
+       qua Conversions API sau khi nhận webhook payload — KHÔNG fire client-side
+       ở đây để tránh duplicate event trên Pixel. */
     console.log('[Rejuvella] Order placed:', orderCode);
   }
 });
