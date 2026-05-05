@@ -883,9 +883,9 @@ function getFBP(){
       '<div class="bp-qty-row"><span class="bp-qty-label">Số lượng</span><div class="bp-qty">' +
       '<button type="button" class="bp-qty-minus">−</button><input type="number" class="bp-qty-input" value="1" min="1" max="99"><button type="button" class="bp-qty-plus">+</button></div></div>' +
       '<form class="bp-form" novalidate>' +
-      '<div class="bp-hp"><label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off"></div>' +
+      '<div class="bp-hp" aria-hidden="true"><label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off"></div>' +
       '<div class="bp-field" data-field="fullname"><label>Họ và tên<span class="req">*</span></label><input type="text" name="fullname" placeholder="VD: Nguyễn Thị A" required><div class="bp-error">Vui lòng nhập họ tên</div></div>' +
-      '<div class="bp-field" data-field="phone"><label>Số điện thoại<span class="req">*</span></label><input type="tel" name="phone" placeholder="0901234567" required><div class="bp-error">SĐT không hợp lệ (10 số, bắt đầu bằng 0)</div></div>' +
+      '<div class="bp-field" data-field="phone"><label>Số điện thoại<span class="req">*</span></label><input type="tel" name="phone" placeholder="0901234567 hoặc +84901234567" required inputmode="tel" autocomplete="tel"><div class="bp-error">SĐT không hợp lệ. Bắt đầu bằng 0 hoặc +84, theo sau 9 số</div></div>' +
       '<div class="bp-field" data-field="address"><label>Địa chỉ nhận hàng<span class="req">*</span></label><textarea name="address" placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh" required rows="2"></textarea><div class="bp-error">Vui lòng nhập địa chỉ</div></div>' +
       '<div class="bp-field" data-field="note"><label>Ghi chú (tùy chọn)</label><textarea name="note" placeholder="VD: giao giờ hành chính" rows="1"></textarea></div>' +
       '</form>' +
@@ -927,7 +927,11 @@ function getFBP(){
     var field = input.closest('.bp-field'); if (!field) return true;
     var val = (input.value || '').trim(), ok = true;
     if (input.hasAttribute('required') && !val) ok = false;
-    if (ok && input.type === 'tel' && val) ok = /^0[0-9]{9}$/.test(val.replace(/\s/g, ''));
+    if (ok && input.type === 'tel' && val) {
+      var phoneRaw = val.replace(/[\s.\-()]/g, '');
+      ok = /^(0\d{9}|\+84\d{9})$/.test(phoneRaw);
+      if (ok) input.value = phoneRaw;
+    }
     field.classList.toggle('has-error', !ok); return ok;
   }
   function validateOptions() {
@@ -938,7 +942,8 @@ function getFBP(){
   }
   function handleSubmit() {
     if (!_modal) return;
-    var hp = _modal.querySelector('input[name="website"]'); if (hp && hp.value) return;
+    var hp = _modal.querySelector('input[name="website"]');
+    if (hp && hp.value && hp.value.trim()) { console.warn('[ShopeeBuyPopup] Honeypot triggered — bot suspected'); return; }
     if (!validateOptions()) { alert('Vui lòng chọn đầy đủ các tùy chọn.'); return; }
     var inputs = _modal.querySelectorAll('.bp-field input[required], .bp-field textarea[required]');
     var allValid = true;
