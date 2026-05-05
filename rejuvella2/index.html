@@ -985,7 +985,7 @@ function getFBP(){
         '<form class="bp-form" novalidate>'+
           '<div class="bp-hp" aria-hidden="true"><label>Website</label><input type="text" name="website" tabindex="-1" autocomplete="off"></div>'+
           '<div class="bp-field" data-field="fullname"><label>Họ và tên<span class="req">*</span></label><input type="text" name="fullname" placeholder="VD: Nguyễn Thị Mai" required autocomplete="name"><div class="bp-error">Vui lòng nhập họ tên</div></div>'+
-          '<div class="bp-field" data-field="phone"><label>Số điện thoại<span class="req">*</span></label><input type="tel" name="phone" placeholder="VD: 0901234567" required inputmode="tel" autocomplete="tel"><div class="bp-error">Số điện thoại không hợp lệ (10 số, bắt đầu bằng 0)</div></div>'+
+          '<div class="bp-field" data-field="phone"><label>Số điện thoại<span class="req">*</span></label><input type="tel" name="phone" placeholder="VD: 0901234567 hoặc +84901234567" required inputmode="tel" autocomplete="tel"><div class="bp-error">Số điện thoại không hợp lệ. Bắt đầu bằng 0 hoặc +84, theo sau 9 số</div></div>'+
           '<div class="bp-field" data-field="address"><label>Địa chỉ nhận hàng<span class="req">*</span></label><textarea name="address" placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành phố" required autocomplete="street-address" rows="2"></textarea><div class="bp-error">Vui lòng nhập địa chỉ nhận hàng</div></div>'+
           '<div class="bp-field" data-field="note"><label>Ghi chú (tùy chọn)</label><textarea name="note" placeholder="VD: gọi trước khi giao 30p" rows="1"></textarea></div>'+
         '</form>'+
@@ -1024,7 +1024,11 @@ function getFBP(){
     var f=input.closest('.bp-field'); if(!f) return true;
     var v=(input.value||'').trim(), ok=true;
     if(input.hasAttribute('required')&&!v) ok=false;
-    if(ok&&input.type==='tel'&&v) ok=/^0[0-9]{9}$/.test(v.replace(/\s/g,''));
+    if(ok&&input.type==='tel'&&v){
+      var phoneRaw=v.replace(/[\s.\-()]/g,'');
+      ok=/^(0\d{9}|\+84\d{9})$/.test(phoneRaw);
+      if(ok) input.value=phoneRaw;
+    }
     f.classList.toggle('has-error', !ok);
     return ok;
   }
@@ -1036,7 +1040,8 @@ function getFBP(){
   }
   function handleSubmit(){
     if(!_modal) return;
-    var hp=_modal.querySelector('input[name="website"]'); if(hp&&hp.value) return;
+    var hp=_modal.querySelector('input[name="website"]');
+    if(hp&&hp.value&&hp.value.trim()){ console.warn('[ShopeeBuyPopup] Honeypot triggered — bot suspected'); return; }
     if(!validateOptions()){ alert('Vui lòng chọn đầy đủ các tùy chọn sản phẩm.'); return; }
     var inputs=_modal.querySelectorAll('.bp-field input[required], .bp-field textarea[required]');
     var allOk=true;
