@@ -2530,7 +2530,7 @@ function getFBP(){
 
     var formFields = [
       { key: 'fullname', label: 'Họ tên', required: true,  type: 'text',     placeholder: 'Nguyễn Thị A' },
-      { key: 'phone',    label: 'Số điện thoại', required: true,  type: 'tel',      placeholder: '0901234567' },
+      { key: 'phone',    label: 'Số điện thoại', required: true,  type: 'tel',      placeholder: '0901234567 hoặc +84901234567' },
       { key: 'address',  label: 'Địa chỉ giao hàng', required: true,  type: 'textarea', placeholder: 'Số nhà, đường, phường, quận, thành phố' },
       { key: 'note',     label: 'Ghi chú', required: false, type: 'textarea', placeholder: 'Giao giờ hành chính (tuỳ chọn)' }
     ];
@@ -2552,9 +2552,16 @@ function getFBP(){
       body.appendChild(sec);
     });
 
-    var hp = el('input', 'tts-honeypot');
-    hp.type = 'text'; hp.name = 'website'; hp.tabIndex = -1; hp.autocomplete = 'off';
-    body.appendChild(hp);
+    var hpWrap = el('div', 'tts-honeypot');
+    hpWrap.setAttribute('aria-hidden', 'true');
+    var hpLbl = el('label', null, 'Website (không điền)');
+    hpLbl.setAttribute('for', 'tts-hp-website');
+    var hp = el('input');
+    hp.type = 'text'; hp.name = 'website'; hp.id = 'tts-hp-website';
+    hp.tabIndex = -1; hp.autocomplete = 'off';
+    hpWrap.appendChild(hpLbl);
+    hpWrap.appendChild(hp);
+    body.appendChild(hpWrap);
 
     popup.appendChild(body);
 
@@ -2602,8 +2609,8 @@ function getFBP(){
         }
       }
     }
-    var hp = popup.querySelector('.tts-honeypot');
-    if (hp && hp.value) return;
+    var hp = popup.querySelector('.tts-honeypot input');
+    if (hp && hp.value && hp.value.trim()) { console.warn('[TikTokShopBuyPopup] Honeypot triggered — bot suspected'); return; }
 
     var fullname = popup.querySelector('[data-field="fullname"]');
     var phone    = popup.querySelector('[data-field="phone"]');
@@ -2621,11 +2628,14 @@ function getFBP(){
       if (em1) em1.textContent = 'Vui lòng nhập họ tên';
       valid = false;
     }
-    if (!/^0[0-9]{9}$/.test(phone.value.trim())) {
+    var phoneRaw = phone.value.replace(/[\s.\-()]/g, '');
+    if (!/^(0\d{9}|\+84\d{9})$/.test(phoneRaw)) {
       phone.classList.add('error');
       var em2 = phone.parentNode.querySelector('.tts-popup-error-msg');
-      if (em2) em2.textContent = 'SĐT phải gồm 10 số, bắt đầu bằng 0';
+      if (em2) em2.textContent = 'SĐT không hợp lệ. Bắt đầu bằng 0 hoặc +84, theo sau 9 số';
       valid = false;
+    } else {
+      phone.value = phoneRaw;
     }
     if (!address.value.trim()) {
       address.classList.add('error');
