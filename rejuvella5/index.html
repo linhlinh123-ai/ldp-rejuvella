@@ -1303,6 +1303,37 @@ document.addEventListener('keydown', function(e) {
     overlay.querySelector('.bp-submit').addEventListener('click', handleSubmit);
   }
   function _esc(e) { if (e.key === 'Escape') close(); }
+
+  /* ======= Meta Pixel — Client-side Advanced Matching ======= */
+  function removeVN(s) {
+    return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D');
+  }
+  function reinitPixelMatching() {
+    if (typeof fbq === 'undefined' || !_modal) return;
+    var phEl = _modal.querySelector('[name="phone"]');
+    var fnEl = _modal.querySelector('[name="fullname"]');
+    var data = { country: 'vn' };
+    var hasData = false;
+    if (phEl && phEl.value) {
+      var p = phEl.value.replace(/[\s.\-()]/g, '');
+      if (/^(0\d{9}|\+84\d{9})$/.test(p)) {
+        data.ph = p.replace(/^\+?84/, '0');
+        hasData = true;
+      }
+    }
+    if (fnEl && fnEl.value) {
+      var parts = removeVN(fnEl.value).toLowerCase().trim().split(/\s+/);
+      if (parts.length && parts[0]) {
+        data.fn = parts[parts.length - 1];
+        if (parts.length > 1) data.ln = parts.slice(0, -1).join(' ');
+        hasData = true;
+      }
+    }
+    if (hasData) {
+      try { fbq('init', '2139256383565280', data); } catch(e) {}
+    }
+  }
+
   function validateField(input) {
     var f = input.closest('.bp-field');
     if (!f) return true;
@@ -1312,7 +1343,13 @@ document.addEventListener('keydown', function(e) {
     if (ok && input.type === 'tel' && v) {
       var phoneRaw = v.replace(/[\s.\-()]/g, '');
       ok = /^(0\d{9}|\+84\d{9})$/.test(phoneRaw);
-      if (ok) input.value = phoneRaw;
+      if (ok) {
+        input.value = phoneRaw;
+        reinitPixelMatching();
+      }
+    }
+    if (ok && input.name === 'fullname' && v) {
+      reinitPixelMatching();
     }
     f.classList.toggle('has-error', !ok);
     return ok;
